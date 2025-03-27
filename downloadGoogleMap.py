@@ -60,7 +60,6 @@ def wgs_to_mercator(x, y):
 
 # Web墨卡托转经纬度
 
-
 def mercator_to_wgs(x, y):
     x2 = x / 20037508.34 * 180
     y2 = y / 20037508.34 * 180
@@ -220,7 +219,7 @@ def transformLon(x, y):
 
 
 def delta(lat, lon):
-    ''' 
+    '''
     Krasovsky 1940
     //
     // a = 6378245.0, 1/f = 298.3

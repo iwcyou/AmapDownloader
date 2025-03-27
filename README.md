@@ -1,2 +1,8 @@
 # AmapDownloader
-下载高德地图卫星图像和路网
+Download Amap satellite images and road network images.
+## Usage
+```bash
+python downloadGoogleMap.py
+```
+
+Based on: https://github.com/myBestLove/googleMapDownloader
